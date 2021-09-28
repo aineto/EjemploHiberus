@@ -5,13 +5,13 @@
  */
 package com.example.ejemploHiberus.controllers;
 
-import entities.Persona;
+import com.example.ejemploHiberus.entities.Persona;
 import java.util.List;
 import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import repositories.PersonaRepository;
+import com.example.ejemploHiberus.repositories.PersonaRepository;
 
 /**
  *

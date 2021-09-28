@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package repositories;
+package com.example.ejemploHiberus.repositories;
 
-import entities.Persona;
+import com.example.ejemploHiberus.entities.Persona;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PersonaRepository extends JpaRepository<Persona, Integer> {
